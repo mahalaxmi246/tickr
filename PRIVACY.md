@@ -1,40 +1,28 @@
 # Privacy Policy for Tickr – Micro Habit & To-Do Tracker
 
-_Last updated: October 2025_
+**Last Updated: October 2025**
 
-Thank you for using **Tickr**.  
-Your privacy is important to us. This document explains how the extension handles your data.
+## 🔒 What Data We Collect  
+Tickr does **not** collect, transmit, or share any personal data. All your habits, tasks, and streak data are stored **locally** in your browser using Chrome’s `storage.local` API.
 
----
+## 🛠 Permissions and Their Purpose
 
-## 🔒 Data Collection
-- **Tickr does not collect, share, or sell personal data.**
-- All habits, tasks, and streak information are stored **locally in your browser** using Chrome’s `storage.local` API.
-- No information is sent to external servers.
+| Permission           | Purpose                                                   |
+|----------------------|-----------------------------------------------------------|
+| `storage`            | To save habits, tasks, reminders, and streak progress.    |
+| `notifications`      | To display reminders using Chrome notifications.          |
+| `alarms`             | To schedule reminder triggers at specified times.         |
 
----
+These permissions are strictly necessary for Tickr’s core functionality. No other permissions are requested.
 
-## 📊 Permissions Used
-Tickr requests the following Chrome permissions:
+## 🌐 Offline Use  
+Tickr works **entirely offline**. Your data never leaves your device, and no network requests are made.
 
-- **storage** → to save your habits, tasks, and streak progress locally.  
-- **notifications** → to show reminders with quick actions (Done, Ignore, Snooze).  
-- **alarms** → to schedule reminders at daily times, intervals, or weekly.  
-
-These permissions are required only for core functionality of the extension.
+## 📬 Support & Contact  
+If you have questions or wish to report a bug, please use the [Support Form](#) or open an issue in the GitHub repository.
 
 ---
 
-## 🌐 Internet Access
-- Tickr does **not** require internet access to function.  
-- The extension works entirely offline.  
+**In short:**  
+All data stays on your computer. No signups. No servers. No ads. Just productivity.  
 
----
-
-## 📧 Support
-If you have questions or concerns about this policy, please open an issue in our [GitHub repository](../../issues).
-
----
-
-✅ In short: All your data stays on your device.  
-No sign-ups. No tracking. No hidden data collection.  
